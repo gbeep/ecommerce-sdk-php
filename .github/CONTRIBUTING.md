@@ -10,7 +10,7 @@ this project and its community, you are expected to uphold this code.
 
 You can find help and discussion in the following places:
 
-* GitHub Issues: <https://github.com/gbeep/gbeep-ecommerce-sdk-php/issues>
+* GitHub Issues: <https://github.com/gbeep/ecommerce-sdk-php/issues>
 
 
 ## Reporting Bugs
@@ -32,7 +32,7 @@ your bug report and sample code.**
 
 ## Fixing Bugs
 
-I welcome pull requests to fix bugs!
+We welcome pull requests to fix bugs!
 
 If you see a bug report that you'd like to fix, please feel free to do so.
 Following the directions and guidelines described in the "Adding New Features"
@@ -86,10 +86,10 @@ composer run test
 ```
 
 
-[github]: https://github.com/gbeep/gbeep-ecommerce-sdk-php
-[contributor code of conduct]: https://github.com/gbeep/gbeep-ecommerce-sdk-php/blob/master/.github/CODE_OF_CONDUCT.md
-[issues]: https://github.com/gbeep/gbeep-ecommerce-sdk-php/issues
-[pull requests]: https://github.com/gbeep/gbeep-ecommerce-sdk-php/pulls
+[github]: https://github.com/gbeep/ecommerce-sdk-php
+[contributor code of conduct]: https://github.com/gbeep/ecommerce-sdk-php/blob/master/.github/CODE_OF_CONDUCT.md
+[issues]: https://github.com/gbeep/ecommerce-sdk-php/issues
+[pull requests]: https://github.com/gbeep/ecommerce-sdk-php/pulls
 [psr-12]: https://github.com/php-fig/fig-standards/blob/master/proposed/extended-coding-style-guide.md
 [gh-flow]: https://guides.github.com/introduction/flow/
 [git-commit]: https://chris.beams.io/posts/git-commit/
