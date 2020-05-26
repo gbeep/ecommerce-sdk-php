@@ -24,14 +24,14 @@ trait Link
      *
      * @var string
      */
-    protected $campaignId;
+    protected $campaignId = '';
 
     /**
      * Cashier ID: used for building cashier URL
      *
-     * @var int
+     * @var string
      */
-    protected $cashierId;
+    protected $cashierId = '';
 
     /**
      * Environment: used for building URLs
@@ -60,7 +60,7 @@ trait Link
     /**
      * {@inheritDoc}
      */
-    public function setCashierId(int $id): self
+    public function setCashierId(string $id): self
     {
         $this->cashierId = $id;
 

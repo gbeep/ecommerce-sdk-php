@@ -42,9 +42,9 @@ interface SdkInterface
     /**
      * Sets cashier ID
      *
-     * @param int $id Cashier ID
+     * @param string $id Cashier ID
      */
-    public function setCashierId(int $id): Sdk;
+    public function setCashierId(string $id): Sdk;
 
     /**
      * Sets environment

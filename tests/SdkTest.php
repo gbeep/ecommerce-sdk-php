@@ -20,7 +20,7 @@ class SdkTest extends TestCase
     /**
      * Cashier ID
      *
-     * @var int
+     * @var string
      */
     protected $cashierId;
 
@@ -62,7 +62,7 @@ class SdkTest extends TestCase
     protected function setUp(): void
     {
         $this->campaignId = 'tYp4G';
-        $this->cashierId = 81235;
+        $this->cashierId = '81235';
         $this->secret = '46b2063c2e23cc01aec102a1b0084c70';
         $this->region = SdkInterface::REGION_EU;
         $this->environment = SdkInterface::ENV_PRODUCTION;
@@ -74,9 +74,9 @@ class SdkTest extends TestCase
     public function testGetCampaignLink(): void
     {
         $sdk = new Sdk();
-        $sdk->setCampaignId($this->campaignId)
-            ->setEnvironment($this->environment)
-            ->setRegion($this->region);
+        $sdk->setEnvironment($this->environment)
+            ->setRegion($this->region)
+            ->setCampaignId($this->campaignId);
 
         $this->assertSame('https://eu.gb.run/tYp4G/online', $sdk->getCampaignLink());
     }
