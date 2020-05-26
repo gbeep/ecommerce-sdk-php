@@ -3,7 +3,6 @@
 [![Source Code][badge-source]][source]
 [![Latest Version][badge-release]][packagist]
 [![Software License][badge-license]][license]
-[![PHP Version][badge-php]][php]
 [![Build Status][badge-build]][build]
 
 Gobeep ecommerce SDK (PHP library)
@@ -56,5 +55,4 @@ more information.
 [source]: https://github.com/gbeep/ecommerce-sdk-php
 [packagist]: https://packagist.org/packages/gbeep/ecommerce-sdk-php
 [license]: https://github.com/gbeep/ecommerce-sdk-php/blob/master/LICENSE
-[php]: https://php.net
 [build]: https://travis-ci.org/gbeep/ecommerce-sdk-php

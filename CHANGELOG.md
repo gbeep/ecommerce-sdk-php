@@ -19,4 +19,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 * Initial beta release
 
 
-[1.0.0-beta1]: https://github.com/gbeep/gbeep-ecommerce-sdk-php/commits/1.0.0-beta1
+[1.0.0-beta1]: https://github.com/gbeep/ecommerce-sdk-php/releases/tag/1.0.0-beta1
+[1.0.0-beta2]: https://github.com/gbeep/ecommerce-sdk-php/releases/tag/1.0.0-beta2
