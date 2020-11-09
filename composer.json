@@ -2,7 +2,7 @@
     "name": "gbeep/ecommerce-sdk-php",
     "description": "Gobeep ecommerce SDK (PHP library)",
     "type": "library",
-    "keywords": [""],
+    "keywords": ["gobeep", "drive to purchase", "magento", "ecommerce"],
     "homepage": "https://github.com/gbeep/ecommerce-sdk-php",
     "license": "MIT",
     "authors": [
